@@ -514,8 +514,7 @@ This hybrid database schema leverages MongoDB for flexible and dynamic data stor
     "stock": 100,
     "createdAt": "2024-06-01T12:00:00Z",
     "updatedAt": "2024-06-10T12:00:00Z"
-  },
-  ...
+  }
 ]
 ```
 
@@ -731,7 +730,8 @@ This hybrid database schema leverages MongoDB for flexible and dynamic data stor
   "productId": "60d21b4667d0d8992e610c85",
   "stockLevel": 150,
   "warehouseId": "60d21b4667d0d8992e610c86",
-  "updatedAt": "2024-06
+  "updatedAt": "2024-06"
+}
 ```
 
 ## 5. Data flow, prepare 2 - 3 data flow diagram example: when user client some buttons to upload some files, what happens next, how does
