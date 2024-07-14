@@ -442,7 +442,7 @@ This hybrid database schema leverages MongoDB for flexible and dynamic data stor
                     +---------------------+
 ``` -->
 
-<img src="images/ecommerce.png" alt="Ecommerce_architecture
+<img src="../images/ecommerce.png" alt="Ecommerce_architecture
 " width="600" height="400">
 
 ## 4. rest api design (design 2 - 4 rest apis)
