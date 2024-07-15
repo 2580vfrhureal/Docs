@@ -196,6 +196,7 @@
 - **IAM**: Manage access to AWS resources.
 - **DynamoDB**: Additional support for serverless and non-relational data storage.
 - **Elasticsearch Service**: Managed Elasticsearch for search functionality.
+- **Amazon MSK**: Kafka
 
 **Containerization and Orchestration:**
 
@@ -1161,7 +1162,7 @@ Post-incident, we focused on enhancing fault tolerance, refining auto-scaling po
 
 7. **Amazon Elasticsearch Service**: Managed service for deploying, operating, and scaling Elasticsearch clusters for real-time search and analytics.
 
-8. **Amazon Kinesis**: Service for real-time data streaming and analytics, used for processing and analyzing real-time data streams from applications.
+8. **Amazon MSK**: Service for kafka.
 
 9. **Amazon SQS (Simple Queue Service)** or **Amazon SNS (Simple Notification Service)**: Messaging and notification services used for decoupling application components and managing asynchronous communication.
 
