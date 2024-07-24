@@ -1145,6 +1145,8 @@ Post-incident, we focused on enhancing fault tolerance, refining auto-scaling po
 6. **Disaster Recovery Planning:** We developed more robust disaster recovery plans to ensure quick recovery in case of future incidents.
 7. **Continuous Improvement:** We established a feedback loop for continuous improvement, regularly reviewing and updating our systems based on lessons learned from the event.
 
+For a shopping site of this size, every time such a server problem occurs there is a huge financial loss. So since then I've been more concerned about this issue and have taken steps to make sure it doesn't happen.
+
 ## 8. aws
 
 1. **Amazon EC2 (Elastic Compute Cloud)**:

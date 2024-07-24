@@ -1,5 +1,8 @@
 # Online Banking System Architecture for Citizens Bank
 
+<img src="../images/bank-architecture.png" alt="bank-architecture
+" width="600" height="400">
+
 ## 1. features / functionalities / system purpose + overview
 
 #### Technologies Used
@@ -285,7 +288,7 @@
 +---------------+    +--------------+    +--------------+    +--------------+    +--------------+   +--------------+
 |   User        |    | Fund Transfer|    | Payment      |    | Notification |    | Banking Core |   | Config Server|
 |   Service     |    | Service      |    | Service      |    | Service      |    | Service      |   |              |
-|   (Spring Boot|    | (Spring Boot)|    | (Spring Boot)|    | (Spring Boot)|    | (Spring Boot)|   | (Spring Cloud|
+|   (Spring Boot|    | (Spring Boot|    | (Spring Boot  |    | (Spring Boot |    | (Spring Boot |   | (Spring Cloud|
 |   + MySQL)    |    | + RabbitMQ)  |    | + RabbitMQ)  |    | + RabbitMQ)  |    | + MySQL)     |   | Config)      |
 +---------------+    +--------------+    +--------------+    +--------------+    +--------------+   +--------------+
         |                   |                    |                  |                   |                  |
@@ -522,6 +525,22 @@
 Certainly! Here are a few data flow diagrams for different scenarios in an online banking system, illustrating how requests flow through various services:
 
 ### Data Flow Diagrams for Online Banking System
+
+Bank Payment Service
+Purpose: Facilitates the processing of payments for various transactions.
+Key Functions:
+**Transaction Processing:** Manages payment transactions between customers and merchants.
+**Payment Gateway Integration:** Interfaces with third-party payment gateways to process credit/debit card transactions.
+**Fraud Detection:** Implements mechanisms to detect and prevent fraudulent activities.
+**Settlement and Reconciliation:** Ensures accurate settlement of funds between different parties and reconciles transactions to maintain financial accuracy.
+
+Fund Transfer Service
+Purpose: Allows for the transfer of funds between different accounts within the same or different financial institutions.
+Key Functions:
+**Account-to-Account Transfers:** Enables transfers between accounts held by the same user or different users within the same bank.
+**Interbank Transfers:** Facilitates transfers between accounts held at different banks, often using systems like ACH (Automated Clearing House) or wire transfers.
+**Scheduled Transfers:** Allows users to schedule future transfers, either as one-time or recurring transactions.
+**Transfer Notifications:** Notifies users of successful transfers and any issues that may arise during the process.
 
 #### Scenario 1: User Initiates Fund Transfer
 
